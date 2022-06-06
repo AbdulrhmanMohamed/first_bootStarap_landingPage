@@ -1,0 +1,56 @@
+body {
+    background-color: #333;
+    color: white;
+}
+
+.navbar {
+    border-bottom: 2px solid #008ed6;
+    opacity: 0.8;
+}
+
+#home-section {
+    background-image: url('./images/home.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 700px;
+    position: relative;
+    z-index: -1;
+}
+
+#home-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0 0 0/60%);
+}
+
+#home-section .inner_content {
+    padding-top: 150px;
+}
+
+.fa-solid {
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+}
+
+#home-section .fa-solid {
+    background: #008ed6 !important;
+}
+
+#create-section .fa-solid {
+    background: #ccc;
+    color: #008ed6;
+}
+
+.form-group input {
+    padding: 30px;
+}
+
+.explore .fa-solid,
+#share-section .fa-solid {
+    background: #333;
+}
